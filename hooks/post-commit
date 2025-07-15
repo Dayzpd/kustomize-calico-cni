@@ -2,7 +2,7 @@
 
 gitopsRepoUrl=git@github.com:Dayzpd/homelab-apps.git
 gitopsRepoPath="../homelab-gitops"
-appName="external-secrets"
+appName="calico-cni"
 argoConfigSrc="argocd/$appName.yaml"
 argoConfigDest="apps/$appName.yaml"
 
