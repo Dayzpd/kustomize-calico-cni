@@ -11,6 +11,12 @@ spec:
     - name: default-ipv4-ippool
       blockSize: 26
       cidr: 10.161.0.0/16
+      allowedUses:	
+      - Workload	
+      - Tunnel	
+      assignmentMode: Automatic	
+      disableBGPExport: false	
+      disableNewAllocations: false
       encapsulation: VXLANCrossSubnet
       natOutgoing: Enabled
       nodeSelector: all()
